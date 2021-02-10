@@ -5,7 +5,7 @@
 
 
 
-```
+```vhdl
 zdrojovy
 kod
 
