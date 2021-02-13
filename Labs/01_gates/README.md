@@ -50,3 +50,4 @@ begin
 
 end architecture dataflow;
 ```
+[Code](https://www.edaplayground.com/x/bk7M)
