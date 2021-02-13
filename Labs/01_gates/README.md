@@ -30,11 +30,11 @@ begin
 end architecture dataflow;
 ```
 
-[code](https://www.edaplayground.com/x/JUC_)
+[Code](https://www.edaplayground.com/x/JUC_)
 
 ##task3
 
-![obrazek2](images/ukol_2)
+![obrazek2](images/ukol_2.png)
 
 ```VHDL
 architecture dataflow of gates is
