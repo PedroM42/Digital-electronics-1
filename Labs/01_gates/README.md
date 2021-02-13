@@ -1,10 +1,10 @@
-#DE1_cv1
+# DE1_cv1
 
-##task1
+## task1
 
-[Link to GitHub repository] (https://github.com/PedroM42/Digital-electronics-1)
+[Link to GitHub repository](https://github.com/PedroM42/Digital-electronics-1)
 
-##task2
+## task2
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -32,7 +32,7 @@ end architecture dataflow;
 
 [Code](https://www.edaplayground.com/x/JUC_)
 
-##task3
+## task3
 
 ![obrazek2](images/ukol_2.png)
 
