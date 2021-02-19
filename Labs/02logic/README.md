@@ -20,3 +20,13 @@
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+## Task2
+
+![obrazek1](images/BgreaterA.png)
+
+![obrazek2](images/BequalsA.png)
+
+![obrazek3](images/BlessA.png)
+
+## Task3
