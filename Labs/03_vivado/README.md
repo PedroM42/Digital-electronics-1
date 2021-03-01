@@ -6,7 +6,7 @@
 
 | | **Name of pin for** | |
 | :-: | :-: | :-: |
-| **number of** | **Switch** |  **LED**  |
+| **Number of** | **Switch** |  **LED**  |
 | 0 | J15 | H17 |
 | 1 | L16 | K15 |
 | 2 | M13 | J13 |
