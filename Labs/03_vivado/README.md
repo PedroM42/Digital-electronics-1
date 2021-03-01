@@ -4,7 +4,7 @@
 
 # Task 1
 
-| | **Name of pin for** | |
+| | **Name of pin for** |
 | :-: | :-: | 
 | **number of** | **Switch** | **LED** |
 | :-: | :-: | :-: |
