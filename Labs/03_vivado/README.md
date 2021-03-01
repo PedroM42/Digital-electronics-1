@@ -4,7 +4,10 @@
 
 # Task 1
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 70eb206144f89116c73d93e629810fd6bfb36b7f
 | | **Name of pin for** | |
 | :-: | :-: | :-: |
 | **Number of** | **Switch** |  **LED**  |
@@ -24,6 +27,7 @@
 | 13 | U12 | V14 |
 | 14 | U11 | V12 |
 | 15 | V10 | V11 |
+<<<<<<< HEAD
 
 
 # Task 2 
@@ -111,3 +115,5 @@ end architecture testbench;
 # Task 3 
 
 [Tutorial](Tutorial/vivado_tutorial.pdf)
+=======
+>>>>>>> 70eb206144f89116c73d93e629810fd6bfb36b7f
