@@ -4,7 +4,6 @@
 
 ## Task 1
 
-
 | | **Name of pin for** | |
 | :-: | :-: | :-: |
 | **Number of** | **Switch** |  **LED**  |
@@ -24,14 +23,14 @@
 | 13 | U12 | V14 |
 | 14 | U11 | V12 |
 | 15 | V10 | V11 |
-<<<<<<< HEAD
+
 
 
 ## Task 2 
 
 Listing of VHDL architecture from mux_2bit_4to1
 
-´´´vhdl
+```vhdl
 architecture Behavioral of mux_2bit_4to1 is
 begin
     
@@ -42,11 +41,11 @@ begin
             
             
 end architecture Behavioral;
-´´´
+```
 
 Listing of VHDL stimulus process from tb_mux_2bit_4to1
 
-´´´vhdl
+```vhdl
 architecture testbench of tb_mux_2bit_4to1 is
 
     -- Local signals
@@ -108,7 +107,7 @@ begin
     end process p_stimulus;
 
 end architecture testbench;
-´´´
+```
 ![obrazek1](images/simwave.png)
 
 ## Task 3 
