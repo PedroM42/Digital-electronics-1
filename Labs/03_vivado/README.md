@@ -1,4 +1,4 @@
-# DE1_cv_4
+# DE1_cv_3
 
 [Link to GitHub repository](https://github.com/PedroM42/Digital-electronics-1/tree/main/Labs/03_vivado)
 
