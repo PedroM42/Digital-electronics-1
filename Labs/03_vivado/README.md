@@ -1,13 +1,10 @@
-## DE1_cv_4
+# DE1_cv_4
 
 [Link to GitHub repository](https://github.com/PedroM42/Digital-electronics-1/tree/main/Labs/03_vivado)
 
-# Task 1
+## Task 1
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 70eb206144f89116c73d93e629810fd6bfb36b7f
 | | **Name of pin for** | |
 | :-: | :-: | :-: |
 | **Number of** | **Switch** |  **LED**  |
@@ -30,9 +27,10 @@
 <<<<<<< HEAD
 
 
-# Task 2 
+## Task 2 
 
 Listing of VHDL architecture from mux_2bit_4to1
+
 ´´´vhdl
 architecture Behavioral of mux_2bit_4to1 is
 begin
@@ -47,6 +45,7 @@ end architecture Behavioral;
 ´´´
 
 Listing of VHDL stimulus process from tb_mux_2bit_4to1
+
 ´´´vhdl
 architecture testbench of tb_mux_2bit_4to1 is
 
@@ -112,8 +111,7 @@ end architecture testbench;
 ´´´
 ![obrazek1](images/simwave.png)
 
-# Task 3 
+## Task 3 
 
 [Tutorial](Tutorial/vivado_tutorial.pdf)
-=======
->>>>>>> 70eb206144f89116c73d93e629810fd6bfb36b7f
+
