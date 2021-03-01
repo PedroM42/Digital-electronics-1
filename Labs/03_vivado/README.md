@@ -5,7 +5,6 @@
 ## Task 1
 
 | | **Name of pin for** | |
-| :-: | :-: | :-: |
 | **Number of** | **Switch** |  **LED**  |
 | 0 | J15 | H17 |
 | 1 | L16 | K15 |
