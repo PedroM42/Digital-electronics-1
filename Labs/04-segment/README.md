@@ -71,7 +71,7 @@ begin
         end case;
     end process p_7seg_decoder;
 
-end architecture behavioral;
+end architecture Behavioral;
 
 ```
 
@@ -128,8 +128,8 @@ p_stimulus : process
 
 ![obrazek2](images/sim.png)
 
-###Listing of VHDL code from top.vhd
-
+### Listing of VHDL code from top.vhd
+ 
 ```vhdl
 
  hex2seg : entity work.hex_7seg
