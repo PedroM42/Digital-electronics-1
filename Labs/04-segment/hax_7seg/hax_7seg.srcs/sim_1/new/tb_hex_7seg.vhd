@@ -37,14 +37,14 @@ end tb_hex_7seg;
 
 architecture testbench of tb_hex_7seg is
         signal s_hex       : std_logic_vector(4 - 1 downto 0);
-        signal s_seg       :  std_logic_vector(7 - 1 downto 0);
+        signal s_seg       : std_logic_vector(7 - 1 downto 0);
 
 begin
-     uut_hex_7seg : entity work.hex_7seg
+     uut_hex_7seg : entity work.hex_7seg 
         port map(
             hex_i           => s_hex,
-            seg_o           => s_seg,
-        );
+            seg_o           => s_seg 
+            );
            
         p_stimulus : process
     begin
