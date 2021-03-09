@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar  9 18:49:15 2021
+# Process ID: 12352
+# Current directory: C:/Users/Medek/Desktop/Study/DE1/DE1_cv/Digital-electronics-1/Labs/04-segment/hax_7seg/hax_7seg.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/Medek/Desktop/Study/DE1/DE1_cv/Digital-electronics-1/Labs/04-segment/hax_7seg/hax_7seg.runs/impl_1/top.vdi
+# Journal file: C:/Users/Medek/Desktop/Study/DE1/DE1_cv/Digital-electronics-1/Labs/04-segment/hax_7seg/hax_7seg.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
