@@ -5,6 +5,7 @@
 ## Task1
 
 |**PIN**|**PORT**|
+| :-: | :-: |
 | N17 | BTNC |
 | M18 | BTNU |
 | P17 | BTNL |
@@ -12,6 +13,7 @@
 | P18 | BTND |
 
 | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
+| :-: | :-: | :-: | :-: |
 | 2 ms | 200 000| x"3_0d40" | b"0011_0000_1101_0100_0000" |
 | 4 ms | 400 000| x"6_1A80" | b"0110_0001_1010_1000_0000" |
 | 10 ms | 1 000 000| x"F_4240" | b"1111_0100_0010_0100_0000" |
