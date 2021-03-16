@@ -187,3 +187,6 @@ begin
 
 end architecture Behavioral;
 ```
+
+![obrazek4](images/obr1.png)
+![obrazek5](images/obr2.png)
