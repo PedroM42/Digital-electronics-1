@@ -1,5 +1,4 @@
 # DE1_cv6
-
 [Link to GitHub repository](https://github.com/PedroM42/Digital-electronics-1)
 
 ## Task1
@@ -33,8 +32,6 @@
   },
 }
 ```
-
-
 
 ## Task2 
 
