@@ -145,7 +145,7 @@ begin
     --------------------------------------------------------------------
     p_clk_gen : process
     begin
-        while now < 16ms loop         -- 75 periods of 100MHz clock
+        while now < 16ms loop         
             s_clk_100MHz <= '0';
             wait for c_CLK_100MHZ_PERIOD / 2;
             s_clk_100MHz <= '1';
@@ -185,6 +185,13 @@ begin
         s_data1_i      <= "0100";
         s_data0_i      <= "0010";  
         s_dp_i         <= "0111";
+        
+        wait for 605ns;
+        
+        s_data3_i      <= "0100"; 
+        s_data2_i      <= "0010";
+        s_data1_i      <= "0000";
+        s_data0_i      <= "0011";
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
