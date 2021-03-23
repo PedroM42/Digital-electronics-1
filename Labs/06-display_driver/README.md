@@ -1,10 +1,47 @@
 # DE1_cv6
 
+[Link to GitHub repository](https://github.com/PedroM42/Digital-electronics-1)
+
 ## Task1
 
 
+```vhdl
+{
+  signal:
+  [
+    ['Digit position',
+      {name: 'Common anode: AN(3)', wave: 'xx01..01..01'},
+      {name: 'AN(2)', wave: 'xx101..01..0'},
+      {name: 'AN(1)', wave: 'xx1.01..01..'},
+      {name: 'AN(0)', wave: 'xx1..01..01.'},
+    ],
+    ['Seven-segment data',
+      {name: '4-digit value to display', wave: 'xx3333555599', data: ['3','1','4','2','3','1','4','2','3','1']},
+      {name: 'Cathod A: CA', wave: 'xx01.0.1.0.1'},
+      {name: 'CB', wave: 'xx0.........'},
+      {name: 'CC', wave: 'xx0..10..10.'},
+      {name: 'CD', wave: 'xx01.0.1.0.1'},
+      {name: 'CE', wave: 'xx1..01..01.'},
+      {name: 'CF', wave: 'xx1.01..01..'},
+      {name: 'CG', wave: 'xx010..10..1'},
+    ],
+    {name: 'Decimal point: DP', wave: 'xx01..01..01'},
+  ],
+  head:
+  {
+    text: '                    4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms',
+  },
+}
+```
+
+
+
 ## Task2 
+
 ### Listing of VHDL code of the process p_mux with syntax highlighting.
+
+![obrazek1](images/wavedrom.png)
+
 ```vhdl
 p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
     begin
@@ -115,7 +152,7 @@ begin
     --------------------------------------------------------------------
     p_clk_gen : process
     begin
-        while now < 750 ns loop         -- 75 periods of 100MHz clock
+        while now < 16ms loop         -- 75 periods of 100MHz clock
             s_clk_100MHz <= '0';
             wait for c_CLK_100MHZ_PERIOD / 2;
             s_clk_100MHz <= '1';
@@ -131,11 +168,11 @@ begin
     p_reset_gen : process
     begin
         s_reset <= '0';
-        wait for 10 ns;
+        wait for 12 ns;
         
         -- Reset activated
         s_reset <= '1';
-        wait for 53 ns;
+        wait for 73 ns;
 
         -- Reset deactivated
         s_reset <= '0';
@@ -155,14 +192,6 @@ begin
         s_data1_i      <= "0100";
         s_data0_i      <= "0010";  
         s_dp_i         <= "0111";
-        
-        wait for 600 ns;
-        
-        s_data3_i      <= "0100"; 
-        s_data2_i      <= "0011";
-        s_data1_i      <= "0010";
-        s_data0_i      <= "0001";  
-        
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
@@ -171,61 +200,9 @@ begin
 end architecture testbench;
 
 ```
-
-### Listing of VHDL architecture of the top layer
-```vhdl
-------------------------------------------------------------------------
--- Architecture body for top level
-------------------------------------------------------------------------
-architecture Behavioral of top is
-    -- No internal signals
-begin
-
-    --------------------------------------------------------------------
-    -- Instance (copy) of driver_7seg_4digits entity
-    driver_seg_4 : entity work.driver_7seg_4digits
-        port map(
-            clk        => CLK100MHZ,
-            reset      => BTNC,
-            data0_i(3) => SW(3),
-            data0_i(2) => SW(2),
-            data0_i(1) => SW(1),
-            data0_i(0) => SW(0),
-            --- WRITE OUR CODE HERE
-            data1_i(3) => SW(7),
-            data1_i(2) => SW(6),
-            data1_i(1) => SW(5),
-            data1_i(0) => SW(4),
-            --
-            data2_i(3) => SW(11),
-            data2_i(2) => SW(10),
-            data2_i(1) => SW(9),
-            data2_i(0) => SW(8),
-            --
-            data3_i(3) => SW(15),
-            data3_i(2) => SW(14),
-            data3_i(1) => SW(13),
-            data3_i(0) => SW(12),
-            
-            dig_o => AN(4 - 1 downto 0),
-            
-            seg_o(0) => CA,
-            seg_o(1) => CB,
-            seg_o(2) => CC,
-            seg_o(3) => CD,
-            seg_o(4) => CE,
-            seg_o(5) => CF,
-            seg_o(6) => CG,
-            
-            dp_i => "0111",
-            dp_o => DP
-            --- WRITE YOUR CODE HERE
-        );
-
-    -- Disconnect the top four digits of the 7-segment display
-    AN(7 downto 4) <= b"1111";
-
-end architecture Behavioral;
-```
+![obrazek1](images/sim1.png)
+![obrazek2](images/sim2.png)
 
 ## Task3
+
+![obrazek3](images/8digit.png)
