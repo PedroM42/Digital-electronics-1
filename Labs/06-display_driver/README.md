@@ -3,7 +3,7 @@
 [Link to GitHub repository](https://github.com/PedroM42/Digital-electronics-1)
 
 ## Task1
-
+![obrazek1](images/wavedrom.png)
 
 ```vhdl
 {
@@ -39,8 +39,6 @@
 ## Task2 
 
 ### Listing of VHDL code of the process p_mux with syntax highlighting.
-
-![obrazek1](images/wavedrom.png)
 
 ```vhdl
 p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
