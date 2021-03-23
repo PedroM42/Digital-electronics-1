@@ -32,8 +32,6 @@
   },
 }
 ```
-
-
 ## Task2 
 
 ### Listing of VHDL code of the process p_mux with syntax highlighting
@@ -68,7 +66,6 @@ p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
     end process p_mux;
 
 end architecture Behavioral;
-
 ```
 
 ### Listing of VHDL testbench file tb_driver_7seg_4digits with syntax highlighting and asserts
@@ -194,7 +191,6 @@ begin
   
 
 end architecture testbench;
-
 ```
 
 ### Simulation
@@ -255,7 +251,6 @@ begin
     AN(7 downto 4) <= b"1111";
 
 end architecture Behavioral;
-
 ```
 
 ## Task3
