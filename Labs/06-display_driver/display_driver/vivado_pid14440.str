@@ -106,3 +106,24 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // [GUI Memory]: 119 MB (+3548kb) [00:00:11]
 // WARNING: HEventQueue.dispatchEvent() is taking  3154 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,011 MB. GUI used memory: 58 MB. Current time: 3/23/21, 3:31:50 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 1006.348 ; gain = 0.000 
+// Project name: display_driver; location: C:/Users/Medek/Desktop/Study/DE1/DE1_cv/Digital-electronics-1/Labs/06-display_driver/display_driver; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 133 MB (+7950kb) [00:00:20]
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_TCL_CONSOLE_WINDOW
+// Elapsed time: 126 seconds
+selectCodeEditor("top.vhd", 0, 94); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
