@@ -40,8 +40,10 @@ begin
     begin
         s_rst <= '0';
         wait for 12 ns;
+        
         s_rst <= '1';
         wait for 30 ns;
+        
         s_rst <= '0';
         wait;
     end process p_reset_gen;

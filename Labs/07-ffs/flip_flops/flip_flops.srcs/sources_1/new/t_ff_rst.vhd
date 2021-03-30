@@ -50,13 +50,16 @@ begin
             if (rst = '1') then
                 s_q         <=  '0';
                 s_q_bar     <=  '1'; 
+                
              else
                 if (t = '0') then
                     s_q     <=  s_q;
                     s_q_bar <=  s_q_bar;
-                else -- toggle (1)
+                    
+                else 
                     s_q     <=  not s_q;
                     s_q_bar <=  not s_q_bar;
+                    
                 end if;
              end if;
         end if;
