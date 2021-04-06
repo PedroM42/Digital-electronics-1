@@ -24,7 +24,7 @@
 
 ### State diagram
 
-![diagram1](images/obr1.PNG)
+![diagram1](images/obr1.png)
 
 ### Listing of VHDL code of sequential process p_traffic_fsm
 ```vhdl
@@ -159,7 +159,7 @@ p_output_fsm : process(s_state)
 
 ### State diagram
 
-![diagram2](images/obr2.PNG)
+![diagram2](images/obr2.png)
 
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm
 ```vhdl
