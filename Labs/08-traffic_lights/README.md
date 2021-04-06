@@ -11,6 +11,7 @@
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `0` | `1` | `0` |
 
 ### Figure with connection
+
 ![LED](images/LED.PNG)
 
 ### Table with color settings
@@ -20,7 +21,9 @@
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
 
 ## Task 2
+
 ### State diagram
+
 ![diagram1](images/obr1.PNG)
 
 ### Listing of VHDL code of sequential process p_traffic_fsm
@@ -155,6 +158,7 @@ p_output_fsm : process(s_state)
 | `SOUTH_WAIT` | yellow | red | 2 sec | n/c |
 
 ### State diagram
+
 ![diagram2](images/obr2.PNG)
 
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm
