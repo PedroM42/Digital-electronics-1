@@ -12,7 +12,7 @@
 
 ### Figure with connection
 
-![LED](images/LED.PNG)
+![LED](images/LED.png)
 
 ### Table with color settings
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
